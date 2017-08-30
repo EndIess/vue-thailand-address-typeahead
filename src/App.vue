@@ -27,8 +27,6 @@ export default {
       addressField: ADDRESS_FIELD,
       form: {
         address: {
-          line1: '',
-          line2: '',
           district: '',
           city: '',
           province: '',

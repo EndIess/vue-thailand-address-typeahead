@@ -32,8 +32,7 @@ $ yarn add vue-thailand-address-typeahead
   </form>
 </template>
 <script>
-  import { ADDRESS_FIELD } from 'vue-thailand-address-typeahead/src/const'
-  import Typeahead from 'vue-thailand-address-typeahead/src/Typeahead'
+  import { Typeahead, ADDRESS_FIELD } from 'vue-thailand-address-typeahead'
 
   export default {
   	data () {
@@ -41,8 +40,6 @@ $ yarn add vue-thailand-address-typeahead
               addressField: ADDRESS_FIELD,
               form: {
                 address: {
-                    line1: '',
-                    line2: '',
                     district: '',
                     city: '',
                     province: '',
