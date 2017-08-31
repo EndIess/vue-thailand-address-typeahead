@@ -4,7 +4,7 @@ This project fork from
 [jquery.Thailand.js](https://github.com/earthchie/jquery.Thailand.js)
 
 ## Demo
-TODO
+[Example with storybook](https://PhompAng.github.io/jquery.Thailand.js/)
 
 ## Dependencies
 - [thai-address-database](https://github.com/Sellsuki/thai-address-database)

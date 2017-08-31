@@ -9,13 +9,17 @@
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "rm -rf dist && node build/build.js",
-    "lint": "eslint --ext .js,.vue src"
+    "lint": "eslint --ext .js,.vue src",
+    "storybook": "start-storybook -p 6006",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
     "thai-address-database": "^0.0.8",
     "vue": "^2.4.2"
   },
   "devDependencies": {
+    "@storybook/storybook-deployer": "^2.0.0",
+    "@storybook/vue": "^3.2.8",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
@@ -69,5 +73,9 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "storybook-deployer": {
+    "gitUsername": "PhompAng",
+    "gitEmail": "tingtong003tomy@gmail.com"
+  }
 }

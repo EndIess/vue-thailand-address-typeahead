@@ -18,7 +18,7 @@
 
 <script>
 import { ADDRESS_FIELD } from './const'
-import Typeahead from './Typeahead'
+import Typeahead from './Typeahead.vue'
 
 export default {
   name: 'app',
