@@ -65,7 +65,7 @@ $ yarn add vue-thailand-address-typeahead
 
 ## Todo
 
- - [ ] Storybook
+ - [x] Storybook
  - [ ] Test
  - [ ] Add code coverage report
 
